@@ -1,26 +1,31 @@
-# Map Animation Project
+# Real-Time Bus Tracker
 
 ## Description
-The Map Animation Project showcases an interactive map powered by the Mapbox GL JS library. It features a marker that dynamically moves between pre-defined bus stops in Scotland, providing real-time tracking and visualization. The project demonstrates the capabilities of Mapbox GL JS for creating engaging maps and simulating marker movement.
+The Real-Time Bus Tracker is an interactive web application that allows users to track the movement of buses in real-time on a map. Powered by the Mapbox GL JS library, this project provides a visual representation of bus locations and their routes. It aims to enhance the usability and convenience of public transportation by providing users with up-to-date information on bus positions.
 
 ## How to Run
-To run this project on your machine, please follow these steps:
+To run the Real-Time Bus Tracker on your local machine, follow the steps below:
 
-1. Clone the repository to your local machine.
-2. Obtain a Mapbox API access token by signing up at [Mapbox](https://www.mapbox.com/).
-3. In the `index.html` file, replace the placeholder `YOUR_MAPBOX_ACCESS_TOKEN` with your actual Mapbox access token. This is necessary for the map to load properly.
+1. Clone the repository to your computer.
+2. Obtain a Mapbox API access token by signing up at Mapbox.
+3. In the `index.html` file, replace `YOUR_MAPBOX_ACCESS_TOKEN` with your actual Mapbox access token. This is required for the map to load correctly.
 4. Open the modified `index.html` file in a web browser.
-5. The map will be displayed with a marker positioned at the initial bus stop location in Scotland.
-6. Click the "Suggested tour of Scotland" button to initiate the animation and observe the marker's movement between bus stops.
+5. The map will be displayed with markers representing the current positions of the buses.
+6. Observe the bus markers moving in real-time as they update their positions.
 
-Note: An internet connection is required to load the Mapbox GL JS library and the map tiles.
+**Note:** An internet connection is necessary to load the Mapbox GL JS library and the map tiles.
 
-## Roadmap of Future Improvements
-Possible future improvements for this project include:
-- Allowing users to select different tours or customize their own routes.
-- Displaying additional information or points of interest for each bus stop.
-- Enhancing the visual appearance of the marker's movement, such as adding a trail or animation effects.
-- Implementing user interaction features like dragging the marker or zooming in/out on the map.
+## Roadmap for Future Improvements
+Here are some potential future improvements to consider for enhancing the Real-Time Bus Tracker:
 
-## License Information
+1. **Bus Route Information:** Display additional information about bus routes, such as stops, schedules, and estimated arrival times.
+2. **Bus Tracking Filter:** Implement a filtering mechanism to allow users to select specific bus routes or filter by destination.
+3. **Live Updates:** Integrate real-time data feeds from transit agencies to provide instant updates on bus locations and delays.
+4. **User Notifications:** Enable push notifications or alerts to inform users of important updates, such as route changes or disruptions.
+5. **User-Friendly Interface:** Improve the user interface with intuitive controls, clear map markers, and a responsive design for various devices.
+6. **Historical Data Analysis:** Incorporate historical data analysis to identify trends, optimize routes, and improve overall transportation efficiency.
+
+By implementing these improvements, the Real-Time Bus Tracker can offer a more comprehensive and user-friendly experience for tracking buses in real-time.
+
+## License
 This project is licensed under the MIT License. For more details, please refer to the LICENSE file.
